@@ -1,6 +1,6 @@
 from flask import Flask
 from flask_cors import CORS
-from model.tabela import Tabela
+from template.tabela import Tabela
 
 
 app = Flask(__name__)

@@ -71,7 +71,7 @@ class Tabela:
                     'valor': str(linha[7]),
                     'mes': str(linha[8]),
                     'ano': str(linha[9]),
-                    'id': index
+                    'id': index+1
                 }
                 prestacoes_contas.append(dados_linha)
         return jsonify(prestacoes_contas)
